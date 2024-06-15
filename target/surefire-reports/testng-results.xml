@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-15T10:27:20 IST" name="Surefire suite" finished-at="2024-06-15T10:31:28 IST" duration-ms="247742">
+    <groups>
+      <group name="filter">
+        <method signature="FilterTest.filterTest(java.lang.String,java.lang.String)[pri:2, instance:tests.FilterTest@34a97744]" name="filterTest" class="tests.FilterTest"/>
+      </group> <!-- filter -->
+      <group name="functional">
+        <method signature="LoginTest.loginTest(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginTest@2cac4385]" name="loginTest" class="tests.LoginTest"/>
+        <method signature="PincodeTest.pincodeTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.PincodeTest@16f7b4af]" name="pincodeTest" class="tests.PincodeTest"/>
+        <method signature="SearchTest.searchTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.SearchTest@73c60324]" name="searchTest" class="tests.SearchTest"/>
+        <method signature="SellerTest.sellerTest(java.lang.String,java.lang.String)[pri:1, instance:tests.SellerTest@71ae31b0]" name="sellerTest" class="tests.SellerTest"/>
+        <method signature="SignUpTest.signUpTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.SignUpTest@6f0ca692]" name="signUpTest" class="tests.SignUpTest"/>
+      </group> <!-- functional -->
+      <group name="wishlist">
+        <method signature="WishlistTest.wishlistTest(java.lang.String,java.lang.String)[pri:2, instance:tests.WishlistTest@2c104774]" name="wishlistTest" class="tests.WishlistTest"/>
+      </group> <!-- wishlist -->
+      <group name="regression">
+        <method signature="GiftcardTest.giftcardTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.GiftcardTest@4275c20c]" name="giftcardTest" class="tests.GiftcardTest"/>
+        <method signature="GroceryTest.groceryTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.GroceryTest@7c56e013]" name="groceryTest" class="tests.GroceryTest"/>
+        <method signature="GroupCompanyTest.groupCompanyTest(java.lang.String,java.lang.String)[pri:1, instance:tests.GroupCompanyTest@3fc9dfc5]" name="groupCompanyTest" class="tests.GroupCompanyTest"/>
+        <method signature="ExchangeTest.exchangeTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ExchangeTest@3ce3db41]" name="exchangeTest" class="tests.ExchangeTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="BannerTest.bannerTest(java.lang.String,java.lang.String)[pri:1, instance:tests.BannerTest@83298d7]" name="bannerTest" class="tests.BannerTest"/>
+        <method signature="BookFlightTest.bookFlightTest(java.lang.String,java.lang.String)[pri:1, instance:tests.BookFlightTest@28d6290]" name="bookFlightTest" class="tests.BookFlightTest"/>
+        <method signature="CartTest.cartTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CartTest@6ca0256d]" name="cartTest" class="tests.CartTest"/>
+        <method signature="CompareTest.compareTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CompareTest@5ef0d29e]" name="compareTest" class="tests.CompareTest"/>
+        <method signature="CustomerCareTest.customerCareTest(java.lang.String,java.lang.String)[pri:1, instance:tests.CustomerCareTest@38f57b3d]" name="customerCareTest" class="tests.CustomerCareTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="NavigationTest.navigationTest(java.lang.String,java.lang.String)[pri:1, instance:tests.NavigationTest@6731787b]" name="navigationTest" class="tests.NavigationTest"/>
+        <method signature="RatingTest.ratingTest(java.lang.String,java.lang.String)[pri:1, instance:tests.RatingTest@58bf8650]" name="ratingTest" class="tests.RatingTest"/>
+        <method signature="ShareTest.shareTest(java.lang.String,java.lang.String)[pri:1, instance:tests.ShareTest@4ba534b0]" name="shareTest" class="tests.ShareTest"/>
+        <method signature="DownloadTest.downloadTest(java.lang.String,java.lang.String)[pri:1, instance:tests.DownloadTest@51850751]" name="downloadTest" class="tests.DownloadTest"/>
+      </group> <!-- sanity -->
+      <group name="banner">
+        <method signature="FilterTest.bannerTest(java.lang.String,java.lang.String)[pri:1, instance:tests.FilterTest@34a97744]" name="bannerTest" class="tests.FilterTest"/>
+        <method signature="WishlistTest.bannerTest(java.lang.String,java.lang.String)[pri:1, instance:tests.WishlistTest@2c104774]" name="bannerTest" class="tests.WishlistTest"/>
+      </group> <!-- banner -->
+    </groups>
+    <test started-at="2024-06-15T10:27:20 IST" name="Surefire test" finished-at="2024-06-15T10:31:28 IST" duration-ms="247742">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@2cac4385]" started-at="2024-06-15T10:29:51 IST" name="setUp" finished-at="2024-06-15T10:29:53 IST" duration-ms="2085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginTest@2cac4385]" started-at="2024-06-15T10:29:53 IST" name="loginTest" data-provider="loginTestData" finished-at="2024-06-15T10:30:00 IST" duration-ms="7350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9876345898]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@2cac4385]" started-at="2024-06-15T10:30:00 IST" name="afterMethod" finished-at="2024-06-15T10:30:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginTest@2cac4385] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@2cac4385]" started-at="2024-06-15T10:30:00 IST" name="tearDown" finished-at="2024-06-15T10:30:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginTest@2cac4385] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2cac4385]" started-at="2024-06-15T10:30:00 IST" name="tearDown" finished-at="2024-06-15T10:30:01 IST" duration-ms="1255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.SignUpTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignUpTest@6f0ca692]" started-at="2024-06-15T10:31:02 IST" name="setUp" finished-at="2024-06-15T10:31:04 IST" duration-ms="1876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signUpTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.SignUpTest@6f0ca692]" started-at="2024-06-15T10:31:04 IST" name="signUpTest" data-provider="signUpTestData" finished-at="2024-06-15T10:31:13 IST" duration-ms="8710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9234671238]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.SignUpTest@6f0ca692]" started-at="2024-06-15T10:31:13 IST" name="afterMethod" finished-at="2024-06-15T10:31:13 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signUpTest status=SUCCESS method=SignUpTest.signUpTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.SignUpTest@6f0ca692] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SignUpTest@6f0ca692]" started-at="2024-06-15T10:31:13 IST" name="tearDown" finished-at="2024-06-15T10:31:13 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signUpTest status=SUCCESS method=SignUpTest.signUpTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.SignUpTest@6f0ca692] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpTest@6f0ca692]" started-at="2024-06-15T10:31:13 IST" name="tearDown" finished-at="2024-06-15T10:31:14 IST" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SignUpTest -->
+      <class name="tests.ExchangeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ExchangeTest@3ce3db41]" started-at="2024-06-15T10:28:51 IST" name="setUp" finished-at="2024-06-15T10:28:53 IST" duration-ms="2123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="exchangeTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ExchangeTest@3ce3db41]" started-at="2024-06-15T10:28:53 IST" name="exchangeTest" data-provider="exchangeTestData" finished-at="2024-06-15T10:29:03 IST" duration-ms="10441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/redmi-12-5g-jade-black-128-gb/p/itmb7b9567637d5c?pid=MOBGS9QU7QVWUWRD&lid=LSTMOBGS9QU7QVWUWRDWPHNEP&marketplace=FLIPKART&q=redmi+&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=search-autosuggest&iid=43966f1d-dc6f-4f22-a093-56bcae55d89b.MOBGS9QU7QVWUWRD.SEARCH&ppt=sp&ppn=sp&ssid=wiam0z4ofk0000001718382646050&qH=0452d1bd19251471]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[110001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exchangeTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ExchangeTest@3ce3db41]" started-at="2024-06-15T10:29:03 IST" name="tearDown" finished-at="2024-06-15T10:29:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=exchangeTest status=SUCCESS method=ExchangeTest.exchangeTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ExchangeTest@3ce3db41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ExchangeTest@3ce3db41]" started-at="2024-06-15T10:29:03 IST" name="tearDown" finished-at="2024-06-15T10:29:04 IST" duration-ms="938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.ExchangeTest@3ce3db41]" started-at="2024-06-15T10:29:03 IST" name="afterMethod" finished-at="2024-06-15T10:29:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=exchangeTest status=SUCCESS method=ExchangeTest.exchangeTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ExchangeTest@3ce3db41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.ExchangeTest -->
+      <class name="tests.DownloadTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DownloadTest@51850751]" started-at="2024-06-15T10:28:28 IST" name="setUp" finished-at="2024-06-15T10:28:30 IST" duration-ms="1543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="downloadTest(java.lang.String,java.lang.String)[pri:1, instance:tests.DownloadTest@51850751]" started-at="2024-06-15T10:28:30 IST" name="downloadTest" data-provider="downloadTestData" finished-at="2024-06-15T10:28:50 IST" duration-ms="19803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DownloadTest@51850751]" started-at="2024-06-15T10:28:50 IST" name="tearDown" finished-at="2024-06-15T10:28:51 IST" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DownloadTest@51850751]" started-at="2024-06-15T10:28:50 IST" name="tearDown" finished-at="2024-06-15T10:28:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=downloadTest status=SUCCESS method=DownloadTest.downloadTest(java.lang.String,java.lang.String)[pri:1, instance:tests.DownloadTest@51850751] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.DownloadTest@51850751]" started-at="2024-06-15T10:28:50 IST" name="afterMethod" finished-at="2024-06-15T10:28:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=downloadTest status=SUCCESS method=DownloadTest.downloadTest(java.lang.String,java.lang.String)[pri:1, instance:tests.DownloadTest@51850751] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.DownloadTest -->
+      <class name="tests.GiftcardTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GiftcardTest@4275c20c]" started-at="2024-06-15T10:29:19 IST" name="setUp" finished-at="2024-06-15T10:29:20 IST" duration-ms="1582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="giftcardTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.GiftcardTest@4275c20c]" started-at="2024-06-15T10:29:20 IST" name="giftcardTest" data-provider="giftcardTestData" finished-at="2024-06-15T10:29:28 IST" duration-ms="7389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/the-gift-card-store?link=home_giftcard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mansigupta876@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mansi Gupta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftcardTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.GiftcardTest@4275c20c]" started-at="2024-06-15T10:29:28 IST" name="afterMethod" finished-at="2024-06-15T10:29:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=giftcardTest status=SUCCESS method=GiftcardTest.giftcardTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.GiftcardTest@4275c20c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.GiftcardTest@4275c20c]" started-at="2024-06-15T10:29:28 IST" name="tearDown" finished-at="2024-06-15T10:29:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=giftcardTest status=SUCCESS method=GiftcardTest.giftcardTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.GiftcardTest@4275c20c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GiftcardTest@4275c20c]" started-at="2024-06-15T10:29:28 IST" name="tearDown" finished-at="2024-06-15T10:29:29 IST" duration-ms="933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.GiftcardTest -->
+      <class name="tests.BookFlightTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BookFlightTest@28d6290]" started-at="2024-06-15T10:27:36 IST" name="setUp" finished-at="2024-06-15T10:27:38 IST" duration-ms="1712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="bookFlightTest(java.lang.String,java.lang.String)[pri:1, instance:tests.BookFlightTest@28d6290]" started-at="2024-06-15T10:27:38 IST" name="bookFlightTest" data-provider="bookFlightTestData" finished-at="2024-06-15T10:27:56 IST" duration-ms="17504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlightTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.BookFlightTest@28d6290]" started-at="2024-06-15T10:27:56 IST" name="tearDown" finished-at="2024-06-15T10:27:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bookFlightTest status=SUCCESS method=BookFlightTest.bookFlightTest(java.lang.String,java.lang.String)[pri:1, instance:tests.BookFlightTest@28d6290] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.BookFlightTest@28d6290]" started-at="2024-06-15T10:27:56 IST" name="afterMethod" finished-at="2024-06-15T10:27:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bookFlightTest status=SUCCESS method=BookFlightTest.bookFlightTest(java.lang.String,java.lang.String)[pri:1, instance:tests.BookFlightTest@28d6290] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BookFlightTest@28d6290]" started-at="2024-06-15T10:27:56 IST" name="tearDown" finished-at="2024-06-15T10:27:57 IST" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BookFlightTest -->
+      <class name="tests.BannerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BannerTest@83298d7]" started-at="2024-06-15T10:27:20 IST" name="setUp" finished-at="2024-06-15T10:27:25 IST" duration-ms="4438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="bannerTest(java.lang.String,java.lang.String)[pri:1, instance:tests.BannerTest@83298d7]" started-at="2024-06-15T10:27:26 IST" name="bannerTest" data-provider="bannerTestData" finished-at="2024-06-15T10:27:35 IST" duration-ms="8929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bannerTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.BannerTest@83298d7]" started-at="2024-06-15T10:27:35 IST" name="afterMethod" finished-at="2024-06-15T10:27:35 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bannerTest status=SUCCESS method=BannerTest.bannerTest(java.lang.String,java.lang.String)[pri:1, instance:tests.BannerTest@83298d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.BannerTest@83298d7]" started-at="2024-06-15T10:27:35 IST" name="tearDown" finished-at="2024-06-15T10:27:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bannerTest status=SUCCESS method=BannerTest.bannerTest(java.lang.String,java.lang.String)[pri:1, instance:tests.BannerTest@83298d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BannerTest@83298d7]" started-at="2024-06-15T10:27:35 IST" name="tearDown" finished-at="2024-06-15T10:27:36 IST" duration-ms="1220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BannerTest -->
+      <class name="tests.WishlistTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WishlistTest@2c104774]" started-at="2024-06-15T10:31:14 IST" name="setUp" finished-at="2024-06-15T10:31:16 IST" duration-ms="1821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="bannerTest(java.lang.String,java.lang.String)[pri:1, instance:tests.WishlistTest@2c104774]" started-at="2024-06-15T10:31:16 IST" name="bannerTest" data-provider="bannerTestData" finished-at="2024-06-15T10:31:23 IST" duration-ms="7246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bannerTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.WishlistTest@2c104774]" started-at="2024-06-15T10:31:23 IST" name="afterMethod" finished-at="2024-06-15T10:31:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bannerTest status=SUCCESS method=WishlistTest.bannerTest(java.lang.String,java.lang.String)[pri:1, instance:tests.WishlistTest@2c104774] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.WishlistTest@2c104774]" started-at="2024-06-15T10:31:23 IST" name="tearDown" finished-at="2024-06-15T10:31:23 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bannerTest status=SUCCESS method=WishlistTest.bannerTest(java.lang.String,java.lang.String)[pri:1, instance:tests.WishlistTest@2c104774] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="wishlistTest(java.lang.String,java.lang.String)[pri:2, instance:tests.WishlistTest@2c104774]" started-at="2024-06-15T10:31:23 IST" name="wishlistTest" data-provider="wishlistTestData" finished-at="2024-06-15T10:31:27 IST" depends-on-methods="tests.WishlistTest.bannerTest" duration-ms="3721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/tyy/4io/~cs-6ky41lperx/pr?sid=tyy%2C4io&collection-tab-name=POCO+M6+Pro+5G&param=3243&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJpbmNsIG9mIG9mZmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbInBvY28gbTYgcHJvIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiTU9CR1JOWjNGWkJWUllIUSIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX19fX0%3D]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlistTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.WishlistTest@2c104774]" started-at="2024-06-15T10:31:27 IST" name="tearDown" finished-at="2024-06-15T10:31:28 IST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.WishlistTest@2c104774]" started-at="2024-06-15T10:31:27 IST" name="afterMethod" finished-at="2024-06-15T10:31:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wishlistTest status=SUCCESS method=WishlistTest.wishlistTest(java.lang.String,java.lang.String)[pri:2, instance:tests.WishlistTest@2c104774] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.WishlistTest@2c104774]" started-at="2024-06-15T10:31:27 IST" name="tearDown" finished-at="2024-06-15T10:31:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wishlistTest status=SUCCESS method=WishlistTest.wishlistTest(java.lang.String,java.lang.String)[pri:2, instance:tests.WishlistTest@2c104774] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.WishlistTest -->
+      <class name="tests.SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SearchTest@73c60324]" started-at="2024-06-15T10:30:32 IST" name="setUp" finished-at="2024-06-15T10:30:34 IST" duration-ms="1826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.SearchTest@73c60324]" started-at="2024-06-15T10:30:34 IST" name="searchTest" data-provider="searchTestData" finished-at="2024-06-15T10:30:41 IST" duration-ms="6581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Women Jeans]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@73c60324]" started-at="2024-06-15T10:30:41 IST" name="afterMethod" finished-at="2024-06-15T10:30:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=SearchTest.searchTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.SearchTest@73c60324] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@73c60324]" started-at="2024-06-15T10:30:41 IST" name="tearDown" finished-at="2024-06-15T10:30:41 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=SearchTest.searchTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.SearchTest@73c60324] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@73c60324]" started-at="2024-06-15T10:30:41 IST" name="tearDown" finished-at="2024-06-15T10:30:42 IST" duration-ms="930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchTest -->
+      <class name="tests.NavigationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.NavigationTest@6731787b]" started-at="2024-06-15T10:30:01 IST" name="setUp" finished-at="2024-06-15T10:30:04 IST" duration-ms="2114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigationTest(java.lang.String,java.lang.String)[pri:1, instance:tests.NavigationTest@6731787b]" started-at="2024-06-15T10:30:04 IST" name="navigationTest" data-provider="navigationTestData" finished-at="2024-06-15T10:30:12 IST" duration-ms="8366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.NavigationTest@6731787b]" started-at="2024-06-15T10:30:12 IST" name="afterMethod" finished-at="2024-06-15T10:30:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigationTest status=SUCCESS method=NavigationTest.navigationTest(java.lang.String,java.lang.String)[pri:1, instance:tests.NavigationTest@6731787b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.NavigationTest@6731787b]" started-at="2024-06-15T10:30:12 IST" name="tearDown" finished-at="2024-06-15T10:30:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigationTest status=SUCCESS method=NavigationTest.navigationTest(java.lang.String,java.lang.String)[pri:1, instance:tests.NavigationTest@6731787b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.NavigationTest@6731787b]" started-at="2024-06-15T10:30:12 IST" name="tearDown" finished-at="2024-06-15T10:30:14 IST" duration-ms="1653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.NavigationTest -->
+      <class name="tests.GroupCompanyTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GroupCompanyTest@3fc9dfc5]" started-at="2024-06-15T10:29:38 IST" name="setUp" finished-at="2024-06-15T10:29:41 IST" duration-ms="2121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="groupCompanyTest(java.lang.String,java.lang.String)[pri:1, instance:tests.GroupCompanyTest@3fc9dfc5]" started-at="2024-06-15T10:29:41 IST" name="groupCompanyTest" data-provider="groupCompanyTestData" finished-at="2024-06-15T10:29:49 IST" duration-ms="7910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupCompanyTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.GroupCompanyTest@3fc9dfc5]" started-at="2024-06-15T10:29:49 IST" name="afterMethod" finished-at="2024-06-15T10:29:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=groupCompanyTest status=SUCCESS method=GroupCompanyTest.groupCompanyTest(java.lang.String,java.lang.String)[pri:1, instance:tests.GroupCompanyTest@3fc9dfc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.GroupCompanyTest@3fc9dfc5]" started-at="2024-06-15T10:29:49 IST" name="tearDown" finished-at="2024-06-15T10:29:49 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=groupCompanyTest status=SUCCESS method=GroupCompanyTest.groupCompanyTest(java.lang.String,java.lang.String)[pri:1, instance:tests.GroupCompanyTest@3fc9dfc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GroupCompanyTest@3fc9dfc5]" started-at="2024-06-15T10:29:49 IST" name="tearDown" finished-at="2024-06-15T10:29:51 IST" duration-ms="1969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.GroupCompanyTest -->
+      <class name="tests.CustomerCareTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CustomerCareTest@38f57b3d]" started-at="2024-06-15T10:28:19 IST" name="setUp" finished-at="2024-06-15T10:28:20 IST" duration-ms="1725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customerCareTest(java.lang.String,java.lang.String)[pri:1, instance:tests.CustomerCareTest@38f57b3d]" started-at="2024-06-15T10:28:21 IST" name="customerCareTest" data-provider="customerTestData" finished-at="2024-06-15T10:28:27 IST" duration-ms="6703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerCareTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.CustomerCareTest@38f57b3d]" started-at="2024-06-15T10:28:27 IST" name="afterMethod" finished-at="2024-06-15T10:28:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customerCareTest status=SUCCESS method=CustomerCareTest.customerCareTest(java.lang.String,java.lang.String)[pri:1, instance:tests.CustomerCareTest@38f57b3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CustomerCareTest@38f57b3d]" started-at="2024-06-15T10:28:27 IST" name="tearDown" finished-at="2024-06-15T10:28:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customerCareTest status=SUCCESS method=CustomerCareTest.customerCareTest(java.lang.String,java.lang.String)[pri:1, instance:tests.CustomerCareTest@38f57b3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CustomerCareTest@38f57b3d]" started-at="2024-06-15T10:28:27 IST" name="tearDown" finished-at="2024-06-15T10:28:28 IST" duration-ms="882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CustomerCareTest -->
+      <class name="tests.ShareTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ShareTest@4ba534b0]" started-at="2024-06-15T10:30:54 IST" name="setUp" finished-at="2024-06-15T10:30:56 IST" duration-ms="1888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shareTest(java.lang.String,java.lang.String)[pri:1, instance:tests.ShareTest@4ba534b0]" started-at="2024-06-15T10:30:56 IST" name="shareTest" data-provider="shareTestData" finished-at="2024-06-15T10:31:01 IST" duration-ms="5711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/apple-iphone-15-pro-max-black-titanium-256-gb/p/itmd170cfc1dec9e?pid=MOBGTAGQGJWQFEFX&lid=LSTMOBGTAGQGJWQFEFXBVNGR1&marketplace=FLIPKART&q=iphone+15+pro+max&store=tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_2_7_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_2_7_na_na_na&fm=Search&iid=31845d65-bfa6-4f1d-a2f4-d981236eaa5b.MOBGTAGQGJWQFEFX.SEARCH&ppt=sp&ppn=sp&ssid=g9c4bn4tww0000001717872638708&qH=4bc0516d32b4b645]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.ShareTest@4ba534b0]" started-at="2024-06-15T10:31:01 IST" name="afterMethod" finished-at="2024-06-15T10:31:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shareTest status=SUCCESS method=ShareTest.shareTest(java.lang.String,java.lang.String)[pri:1, instance:tests.ShareTest@4ba534b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ShareTest@4ba534b0]" started-at="2024-06-15T10:31:01 IST" name="tearDown" finished-at="2024-06-15T10:31:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shareTest status=SUCCESS method=ShareTest.shareTest(java.lang.String,java.lang.String)[pri:1, instance:tests.ShareTest@4ba534b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ShareTest@4ba534b0]" started-at="2024-06-15T10:31:01 IST" name="tearDown" finished-at="2024-06-15T10:31:02 IST" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ShareTest -->
+      <class name="tests.SellerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SellerTest@71ae31b0]" started-at="2024-06-15T10:30:42 IST" name="setUp" finished-at="2024-06-15T10:30:43 IST" duration-ms="1836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sellerTest(java.lang.String,java.lang.String)[pri:1, instance:tests.SellerTest@71ae31b0]" started-at="2024-06-15T10:30:44 IST" name="sellerTest" data-provider="sellerTestData" finished-at="2024-06-15T10:30:52 IST" duration-ms="8705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sellerTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.SellerTest@71ae31b0]" started-at="2024-06-15T10:30:52 IST" name="afterMethod" finished-at="2024-06-15T10:30:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sellerTest status=SUCCESS method=SellerTest.sellerTest(java.lang.String,java.lang.String)[pri:1, instance:tests.SellerTest@71ae31b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SellerTest@71ae31b0]" started-at="2024-06-15T10:30:52 IST" name="tearDown" finished-at="2024-06-15T10:30:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sellerTest status=SUCCESS method=SellerTest.sellerTest(java.lang.String,java.lang.String)[pri:1, instance:tests.SellerTest@71ae31b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SellerTest@71ae31b0]" started-at="2024-06-15T10:30:52 IST" name="tearDown" finished-at="2024-06-15T10:30:54 IST" duration-ms="1463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SellerTest -->
+      <class name="tests.PincodeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PincodeTest@16f7b4af]" started-at="2024-06-15T10:30:14 IST" name="setUp" finished-at="2024-06-15T10:30:15 IST" duration-ms="1758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pincodeTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.PincodeTest@16f7b4af]" started-at="2024-06-15T10:30:16 IST" name="pincodeTest" data-provider="pincodeTestData" finished-at="2024-06-15T10:30:19 IST" duration-ms="3853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/poco-m6-pro-5g-forest-green-128-gb/p/itm151f47ed48eee?pid=MOBGRNZ3FZBVRYHQ&lid=LSTMOBGRNZ3FZBVRYHQLWWUJH&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=b_1_1&otracker=browse&fm=organic&iid=cc972770-991c-415d-841e-231c0f770900.MOBGRNZ3FZBVRYHQ.SEARCH&ppt=browse&ppn=browse&ssid=tl5e3ijzbk0000001715680469385]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[110001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pincodeTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.PincodeTest@16f7b4af]" started-at="2024-06-15T10:30:19 IST" name="afterMethod" finished-at="2024-06-15T10:30:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pincodeTest status=SUCCESS method=PincodeTest.pincodeTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.PincodeTest@16f7b4af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.PincodeTest@16f7b4af]" started-at="2024-06-15T10:30:19 IST" name="tearDown" finished-at="2024-06-15T10:30:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pincodeTest status=SUCCESS method=PincodeTest.pincodeTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.PincodeTest@16f7b4af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PincodeTest@16f7b4af]" started-at="2024-06-15T10:30:19 IST" name="tearDown" finished-at="2024-06-15T10:30:20 IST" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PincodeTest -->
+      <class name="tests.FilterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FilterTest@34a97744]" started-at="2024-06-15T10:29:04 IST" name="setUp" finished-at="2024-06-15T10:29:06 IST" duration-ms="1598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="bannerTest(java.lang.String,java.lang.String)[pri:1, instance:tests.FilterTest@34a97744]" started-at="2024-06-15T10:29:06 IST" name="bannerTest" data-provider="bannerTestData" finished-at="2024-06-15T10:29:13 IST" duration-ms="7054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bannerTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.FilterTest@34a97744]" started-at="2024-06-15T10:29:13 IST" name="afterMethod" finished-at="2024-06-15T10:29:13 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bannerTest status=SUCCESS method=FilterTest.bannerTest(java.lang.String,java.lang.String)[pri:1, instance:tests.FilterTest@34a97744] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.FilterTest@34a97744]" started-at="2024-06-15T10:29:13 IST" name="tearDown" finished-at="2024-06-15T10:29:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bannerTest status=SUCCESS method=FilterTest.bannerTest(java.lang.String,java.lang.String)[pri:1, instance:tests.FilterTest@34a97744] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="filterTest(java.lang.String,java.lang.String)[pri:2, instance:tests.FilterTest@34a97744]" started-at="2024-06-15T10:29:13 IST" name="filterTest" data-provider="filterTestData" finished-at="2024-06-15T10:29:18 IST" depends-on-methods="tests.FilterTest.bannerTest" duration-ms="4645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.FilterTest@34a97744]" started-at="2024-06-15T10:29:18 IST" name="afterMethod" finished-at="2024-06-15T10:29:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterTest status=SUCCESS method=FilterTest.filterTest(java.lang.String,java.lang.String)[pri:2, instance:tests.FilterTest@34a97744] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.FilterTest@34a97744]" started-at="2024-06-15T10:29:18 IST" name="tearDown" finished-at="2024-06-15T10:29:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterTest status=SUCCESS method=FilterTest.filterTest(java.lang.String,java.lang.String)[pri:2, instance:tests.FilterTest@34a97744] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FilterTest@34a97744]" started-at="2024-06-15T10:29:18 IST" name="tearDown" finished-at="2024-06-15T10:29:19 IST" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FilterTest -->
+      <class name="tests.CompareTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CompareTest@5ef0d29e]" started-at="2024-06-15T10:28:07 IST" name="setUp" finished-at="2024-06-15T10:28:08 IST" duration-ms="1631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="compareTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CompareTest@5ef0d29e]" started-at="2024-06-15T10:28:08 IST" name="compareTest" data-provider="compareTestData" finished-at="2024-06-15T10:28:18 IST" duration-ms="9571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/poco-m6-pro-5g-forest-green-128-gb/p/itm151f47ed48eee?pid=MOBGRNZ3FZBVRYHQ&lid=LSTMOBGRNZ3FZBVRYHQLWWUJH&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=b_1_1&otracker=browse&fm=organic&iid=93d2403b-5c0b-48c2-912a-ab78f1ffc658.MOBGRNZ3FZBVRYHQ.SEARCH&ppt=browse&ppn=browse&ssid=qasi52v2800000001715754782625]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.flipkart.com/redmi-12-pastel-blue-128-gb/p/itm9b1a6640faccd?pid=MOBGRMFKAHNTZPWE&lid=LSTMOBGRMFKAHNTZPWE1H5IWS&marketplace=FLIPKART&fm=productRecommendation%2Fsimilar&iid=R%3As%3Bp%3AMOBGRNZ3FZBVRYHQ%3Bl%3ALSTMOBGRNZ3FZBVRYHQLWWUJH%3Bpt%3App%3Buid%3A413ce5c5-129d-11ef-9805-dfeb5cf62949%3B.MOBGRMFKAHNTZPWE&ppt=pp&ppn=pp&ssid=rpba0o2wls0000001715758110411&otracker=pp_reco_Similar%2BProducts_6_35.productCard.PMU_HORIZONTAL_REDMI%2B12%2B%2528Pastel%2BBlue%252C%2B128%2BGB%2529_MOBGRMFKAHNTZPWE_productRecommendation%2Fsimilar_5&otracker1=pp_reco_PINNED_productRecommendation%2Fsimilar_Similar%2BProducts_GRID_productCard_cc_6_NA_view-all&cid=MOBGRMFKAHNTZPWE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.CompareTest@5ef0d29e]" started-at="2024-06-15T10:28:18 IST" name="afterMethod" finished-at="2024-06-15T10:28:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=compareTest status=SUCCESS method=CompareTest.compareTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CompareTest@5ef0d29e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CompareTest@5ef0d29e]" started-at="2024-06-15T10:28:18 IST" name="tearDown" finished-at="2024-06-15T10:28:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=compareTest status=SUCCESS method=CompareTest.compareTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CompareTest@5ef0d29e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CompareTest@5ef0d29e]" started-at="2024-06-15T10:28:18 IST" name="tearDown" finished-at="2024-06-15T10:28:19 IST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CompareTest -->
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTest@6ca0256d]" started-at="2024-06-15T10:27:57 IST" name="setUp" finished-at="2024-06-15T10:27:58 IST" duration-ms="1674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cartTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CartTest@6ca0256d]" started-at="2024-06-15T10:27:58 IST" name="cartTest" data-provider="cartTestData" finished-at="2024-06-15T10:28:06 IST" duration-ms="7263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/apple-iphone-15-blue-128-gb/p/itmbf14ef54f645d?pid=MOBGTAGPAQNVFZZY&lid=LSTMOBGTAGPAQNVFZZY7RHDU7&marketplace=FLIPKART&q=iphone+15&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_ps&fm=search-autosuggest&iid=9c9c407f-2fee-4625-9632-b148f2aad91d.MOBGTAGPAQNVFZZY.SEARCH&ppt=sp&ppn=sp&ssid=0o71vlv6cw0000001717782144993&qH=2f54b45b321e3ae5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mansigupta9876@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.CartTest@6ca0256d]" started-at="2024-06-15T10:28:06 IST" name="afterMethod" finished-at="2024-06-15T10:28:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartTest status=SUCCESS method=CartTest.cartTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CartTest@6ca0256d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@6ca0256d]" started-at="2024-06-15T10:28:06 IST" name="tearDown" finished-at="2024-06-15T10:28:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartTest status=SUCCESS method=CartTest.cartTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CartTest@6ca0256d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@6ca0256d]" started-at="2024-06-15T10:28:06 IST" name="tearDown" finished-at="2024-06-15T10:28:07 IST" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.RatingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RatingTest@58bf8650]" started-at="2024-06-15T10:30:20 IST" name="setUp" finished-at="2024-06-15T10:30:22 IST" duration-ms="1747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ratingTest(java.lang.String,java.lang.String)[pri:1, instance:tests.RatingTest@58bf8650]" started-at="2024-06-15T10:30:22 IST" name="ratingTest" data-provider="ratingTestData" finished-at="2024-06-15T10:30:31 IST" duration-ms="8892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/poco-m6-pro-5g-power-black-128-gb/p/itmef8fa46f89738?pid=MOBGRNZ3ER4N3K4F&lid=LSTMOBGRNZ3ER4N3K4FIYYGCU&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=BestsellerId_tyy%2F4io&srno=b_1_1&otracker=browse&fm=organic&iid=e4251021-69ce-4af4-8e14-c0d82321e3d8.MOBGRNZ3ER4N3K4F.SEARCH&ppt=browse&ppn=browse&ssid=tsnuolqqkg0000001715851610427]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ratingTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.RatingTest@58bf8650]" started-at="2024-06-15T10:30:31 IST" name="afterMethod" finished-at="2024-06-15T10:30:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ratingTest status=SUCCESS method=RatingTest.ratingTest(java.lang.String,java.lang.String)[pri:1, instance:tests.RatingTest@58bf8650] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RatingTest@58bf8650]" started-at="2024-06-15T10:30:31 IST" name="tearDown" finished-at="2024-06-15T10:30:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ratingTest status=SUCCESS method=RatingTest.ratingTest(java.lang.String,java.lang.String)[pri:1, instance:tests.RatingTest@58bf8650] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RatingTest@58bf8650]" started-at="2024-06-15T10:30:31 IST" name="tearDown" finished-at="2024-06-15T10:30:32 IST" duration-ms="953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RatingTest -->
+      <class name="tests.GroceryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GroceryTest@7c56e013]" started-at="2024-06-15T10:29:29 IST" name="setUp" finished-at="2024-06-15T10:29:30 IST" duration-ms="1708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="groceryTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.GroceryTest@7c56e013]" started-at="2024-06-15T10:29:31 IST" name="groceryTest" data-provider="groceryTestData" finished-at="2024-06-15T10:29:36 IST" duration-ms="5923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[110001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groceryTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.GroceryTest@7c56e013]" started-at="2024-06-15T10:29:37 IST" name="afterMethod" finished-at="2024-06-15T10:29:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=groceryTest status=SUCCESS method=GroceryTest.groceryTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.GroceryTest@7c56e013] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.GroceryTest@7c56e013]" started-at="2024-06-15T10:29:37 IST" name="tearDown" finished-at="2024-06-15T10:29:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=groceryTest status=SUCCESS method=GroceryTest.groceryTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.GroceryTest@7c56e013] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GroceryTest@7c56e013]" started-at="2024-06-15T10:29:37 IST" name="tearDown" finished-at="2024-06-15T10:29:38 IST" duration-ms="1902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.GroceryTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
