@@ -1,7 +1,6 @@
 package pages;
 
 import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.JavascriptExecutor;
@@ -45,7 +44,6 @@ public class ExchangePage {
         } catch (ElementClickInterceptedException e) {
             // If element click is intercepted, handle the exception
             System.out.println("Element click intercepted, trying scrolling again or other actions...");
-            // You can try other actions here such as waiting or scrolling further down
         }
    
     }
