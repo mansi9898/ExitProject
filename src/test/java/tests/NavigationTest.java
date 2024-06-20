@@ -36,8 +36,8 @@ public class NavigationTest extends BaseClass {
         driver.manage().window().maximize();
 
         try {
-            navigationPage.selectHomeandFurniture();
-            logger.info("Clicked on Home&Furniture Page Banner");
+            navigationPage.selectAppliances();
+            logger.info("Clicked on Appliances Page Banner");
             navigationPage.goToOfferZone();
             logger.info("Navigated to the OfferZone Top Deals");
             Thread.sleep(3000); // Sleep for 3 seconds (adjust the duration as needed)
